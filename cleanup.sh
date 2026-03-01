@@ -12,3 +12,8 @@ find $LOG_DIR -type f -name "*.log" -mtime +$DAYS -exec rm -f {} \;
 
 echo "Cleanup completed"
 date
+
+echo "Disk usage after cleanup:"
+df -h
+
+
