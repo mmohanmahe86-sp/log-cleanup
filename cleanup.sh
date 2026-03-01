@@ -3,7 +3,7 @@
 LOG_DIR="/var/log"
 DAYS=7
 
-echo "===== Log Cleanup Started ====="
+echo "===== Log Cleanup Started by Dev B ====="
 date
 
 echo "Removing logs older than $DAYS days..."
